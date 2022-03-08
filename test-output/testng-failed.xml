@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="appPackage" value="com.clarocolombia.miclaro.debug"/>
+  <parameter name="appActivity" value="com.clarocolombia.miclaro.activities.Splash"/>
+  <parameter name="rutaOutut" value="./output/"/>
+  <parameter name="noReset" value="true"/>
+  <parameter name="autoGrantPermissior" value="true"/>
+  <parameter name="platformVersion" value="11"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="deviceName" value="R58N20FRZQY"/>
+  <parameter name="rutaImagenReporte" value="./imagenes/logo_periferia.png"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="ProyectoMobile.RunProyMobile">
+        <methods>
+          <include name="cerrar"/>
+          <include name="setUp"/>
+          <include name="PagarFacturaTest" invocation-numbers="0"/>
+          <include name="CambioDireccionTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ProyectoMobile.RunProyMobile -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

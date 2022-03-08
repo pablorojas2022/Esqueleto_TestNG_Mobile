@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-08T12:21:49 COT" name="Suite" finished-at="2022-03-08T12:29:08 COT" duration-ms="438523">
+    <groups>
+    </groups>
+    <test started-at="2022-03-08T12:21:49 COT" name="Test" finished-at="2022-03-08T12:29:08 COT" duration-ms="438523">
+      <class name="ProyectoMobile.RunProyMobile">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ProyectoMobile.RunProyMobile@1b1473ab]" started-at="2022-03-08T12:21:49 COT" name="setUp" finished-at="2022-03-08T12:22:14 COT" duration-ms="24052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[./output/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[./imagenes/logo_periferia.png]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[R58N20FRZQY]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[com.clarocolombia.miclaro.debug]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[com.clarocolombia.miclaro.activities.Splash]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CambioDireccionTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ProyectoMobile.RunProyMobile@1b1473ab]" started-at="2022-03-08T12:22:15 COT" name="CambioDireccionTest" description="Cambio de Direccion" data-provider="busqueda" finished-at="2022-03-08T12:25:35 COT" duration-ms="199579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SI]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SI]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pruebitasportal202179@yoggm.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Claro1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[BOGOTA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[BOGOTÁ, D.C.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[CHICO]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Avenida Carrera]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[BIS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[95]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Avenida]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Bloque]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Bodega]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[804]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CambioDireccionTest -->
+        <test-method signature="PagarFacturaTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ProyectoMobile.RunProyMobile@1b1473ab]" started-at="2022-03-08T12:25:35 COT" name="PagarFacturaTest" description="Pagar una Factura" data-provider="busqueda1" finished-at="2022-03-08T12:29:05 COT" duration-ms="210387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SI]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SI]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pruebitasportal202179@yoggm.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Claro1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5449451902936486]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2022]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[878]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[PABLO ROJAS]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[C.C. (Cédula de Ciudadanía)]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[79789456]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[6016151377]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[pablorojas@cbit-online.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PagarFacturaTest -->
+        <test-method is-config="true" signature="cerrar()[pri:0, instance:ProyectoMobile.RunProyMobile@1b1473ab]" started-at="2022-03-08T12:29:05 COT" name="cerrar" finished-at="2022-03-08T12:29:08 COT" duration-ms="2824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrar -->
+      </class> <!-- ProyectoMobile.RunProyMobile -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
